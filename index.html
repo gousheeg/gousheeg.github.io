@@ -1,0 +1,234 @@
+<!--Declaring HTML5-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- character encoding -->
+    <meta charset="utf-8">
+    <!-- viewport element -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of webpage -->
+    <title>Forza Horizon 4 | A Walkthrough</title>
+    <!--icon for tab-->
+    <link rel="icon" type="image/ico" href="../images/favicon.ico">
+    <!--Style sheets-->
+    <link rel="stylesheet" type="text/css" href="css/indexStyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <!--font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- facebook comments plugin -->
+    <meta property="fb:admins" content="{Gousheeg Kasivenkatasubbu}" />
+</head>
+
+<body class="darkMode">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0"
+        nonce="AN1GFLrR"></script>
+    <!-- ..................................................................................................................... -->
+    <!-- Navigation bar -->
+    <div class="navBar darkElement">
+        <span class="gameLogo darkElement">
+            <img src="../images/fh4.png" alt="Game logo" width="125" />
+        </span>
+        <!-- links to other pages -->
+        <ul>
+            <li><a class="darkElement" href="map.html">DISCOVERABLES</a></li>
+            <li><a class="darkElement" href="cars.html">CARS</a></li>
+            <li><a class="darkElement" href="gallery.html">GALLERY</a></li>
+            <li><a class="darkElement" href="asv.html">EDITORS VEHICLE OF CHOICE</a></li>
+            <li class="toggle" style="float:right"><i id="themeButton" onclick="toggleTheme()" class="fa fa-moon-o"></i>
+            </li>
+        </ul>
+    </div>
+
+    <!-- ..................................................................................................................... -->
+    <!--SlideShow feature
+        Source:W3Schools How TO - Slideshow, 2020
+        Accessed and Modified by Author on 15 July 2020-->
+
+    <div class="slideshow-container darkElement">
+        <h2>Recently Added:</h2>
+        <div class="mySlides fade">
+            <img src="../images/slide1.png" alt="Mustang GT500">
+            <div class="text">Ford Mustang Shelby GT500 (Series 32 Update)</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="../images/slide2.png" alt="Corvette C8">
+            <div class="text">Chevrolet Corvette C8 (Series 31 Update)</div>
+        </div>
+        <div class="mySlides fade">
+            <img src="../images/slide3.png" alt="Jesko">
+            <div class="text">Koenigsegg Jesko (Series 30 Update)</div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="scripts/slideshow.js"></script>
+
+    <!-- ...................................................................................................................... -->
+    <!-- content of webpage -->
+    <div class="descrp darkElement">
+
+        <h2>Overview:</h2>
+
+        <p>Forza Horizon 4 is a racing/driving game developed by Playground Games and Turn10 Studios and
+            published
+            by Microsoft Studios. Unlike the racing only focused Forza Motorsport, Forza Horizon 4 brings a much more
+            fun and relaxed
+            experience to the table. Apart from the racing aspect of the game there is also a free roam mode for those
+            just looking
+            to relax and enjoy driving their dream cars. The game also offers a community where one can create and share
+            custom paint designs, custom tunes
+            as well photos taken in-game.
+            Ever since its debut in October of 2018, the game has received regular updates adding more content
+            ranging from cars to community desgined races along with
+            <span class="expansions">two major expansion packs:
+                Fortune Island and LEGO Speed Champions. </span>
+            A recent update also added a battle royale mode called the Eliminator.
+        </p>
+        <br>
+        <a class="purchaseLink"
+            href="https://www.microsoft.com/en-ca/p/forza-horizon-4/9pnqkhfld2wq?activetab=pivot:overviewtab"
+            target="_blank">Buy Game</a>
+    </div>
+    <!-- ..................................................................................................................... -->
+
+    <div class="video darkElement">
+        <script type="text/javascript" src="scripts/iFramePlayer.js"></script>
+        <div id="player"></div>
+    </div>
+
+
+    <!-- ..................................................................................................................... -->
+    <div class="fortuneisland darkElement">
+
+        <h2>Fortune Island:</h2>
+
+        <img class="fortunepicture" src="../images/fortune.jpg" alt="Fortune Island Gameplay " width="550" />
+
+        <div class="fortunetext">
+            <p>Fortune Island was the first expansion for Forza Horizon 4. Released in December 2018, it brought a new
+                map with mountainous terrain and extreme weather alongside some new vechicles. The expansion involved a
+                progressive gameplay with
+                riddles which revealed the location of treasure chests. The expansion also boasts the games longest
+                drift zone.
+            </p>
+            <br>
+            <a class="purchaseLink"
+                href="https://www.microsoft.com/en-ca/p/forza-horizon-4-fortune-island/9ntv1k54gvtt?activetab=pivot:overviewtab"
+                target="_blank">Buy Expansion
+            </a>
+        </div>
+    </div>
+    <!-- ..................................................................................................................... -->
+    <div class="lego darkElement">
+        <h2>LEGO Speed Champions:</h2>
+
+        <img class="legopicture" src="../images/legodescp.jpg" alt="LEGO Gameplay" width="550" />
+
+        <div class="legotext">
+            <p>The LEGO Speed Champions expansion was the second one to be released for this game. With its release in
+                June 2019, this
+                expansion added a new world modelled by LEGO bricks along with five LEGO vehicles which can be unlocked
+                as the player
+                progressed through the game.
+            </p>
+            <br>
+            <a class="purchaseLink"
+                href="https://www.microsoft.com/en-ca/p/forza-horizon-4-lego-speed-champions/9ntbr7062t7q?activetab=pivot:overviewtab"
+                target="_blank">Buy Expansion
+            </a>
+        </div>
+    </div>
+    <!-- ..................................................................................................................... -->
+    <!-- Feedback form -->
+    <div class="feedback darkElement">
+
+        <h3>Feedback:</h3>
+        <form action="mailto:kasiveng@mcmaster.ca" method="post" enctype="text/plain" name="Feedback form">
+            Name:<br><input type="text" name="Visitor Name"><br>
+            Message:<br><textarea name="Visitor Comment" rows="3"></textarea><br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+
+        <div class="fbPlugin">
+            <div class="fb-comments" data-href="http://student.athabascau.ca/~gousheegka/comp266/unit7/"
+                data-numposts="5" data-width="" data-colorscheme="dark" data-order-by="reverse_time">
+            </div>
+        </div>
+
+
+    </div>
+    <!-- ..................................................................................................................... -->
+    <!-- Footer with social media links and modification timestamp -->
+    <div class="footer darkElement">
+        <div class="social">
+            <ul>
+                <li><a href="https://forums.forzamotorsport.net/turn10_topics110_Forza-Horizon-4-Discussion.aspx"
+                        target="_blank"><img src="../images/forzaLogo.png" title="Forza Forums" width="35"
+                            alt="Forza Logo" /></a></li>
+                <li><a href="https://www.reddit.com/r/forza/" title="Reddit" target="_blank"><i
+                            class="fa fa-reddit fa-2x"></i></a></li>
+                <li><a href="https://www.youtube.com/user/Turn10Studios" title="YouTube" target="_blank"><i
+                            class="fa fa-youtube fa-2x"></i></a></li>
+                <li><a href="https://www.twitch.tv/forza" target="_blank" title="Twitch"><i
+                            class="fa fa-twitch fa-2x"></i></a>
+                </li>
+                <li><a href="https://twitter.com/forzahorizon?lang=en" title="Twitter" target="_blank"><i
+                            class="fa fa-twitter fa-2x"></i></a></li>
+                <li><a href="https://www.facebook.com/forzamotorsport" title="Facebook" target="_blank"><i
+                            class="fa fa-facebook fa-2x"></i></a></li>
+            </ul>
+        </div>
+        <div class="author darkElement">
+            Author: Gousheeg Kasivenkatasubbu &emsp; . &emsp; Last Modified: 02/13/2021
+        </div>
+    </div>
+    <!-- ..................................................................................................................... -->
+
+    <!-- JavaScript for changing theme -->
+    <script type="text/javascript" src="scripts/toggleTheme.js"></script>
+
+</body>
+
+</html>
+
+<!--
+    REFERENCES:
+    YouTube API:
+    http://code.google.com/apis/youtube/js_api_reference.html
+    Facebook Comment Plugin:
+    https://developers.facebook.com/docs/plugins/comments/
+    
+    Linking JavaScript:
+    JavaScript Where To. (n.d.). Retrieved July 15, 2020, from https://www.w3schools.com/js/js_whereto.asp
+    JS Slidehow:
+    W3schools.com. 2020. W3schools How TO-Slideshow [online] Available at: <https://www.w3schools.com/howto/howto_js_slideshow.asp> [Accessed 15 July 2020].
+
+    Images:
+    Fortune Island [Digital image]. (n.d.). Retrieved from https://forzamotorsport.net/en-us/news/fh4_fortuneisland
+    Lego Speed Champions [Digital image]. (n.d.). Retrieved from https://forzamotorsport.net/en-us/news/fh4_lego
+    Favicon Generator for perfect icons on all browsers. (n.d.). Retrieved July 06, 2020, from https://realfavicongenerator.net/
+    Forza Horizon 4 Logo [Digital image]. (n.d.). Retrieved from https://www.pngkey.com/detail/u2y3a9y3y3y3e6q8_forza-horizon-4-logo/
+    Note: All gallery images were captured during gameplay by author
+
+    Viewport Settings:
+    Responsive Web Design - The Viewport. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/css/css_rwd_viewport.asp
+
+    Navigation Bar:
+    Navigation Bar. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/css/css_navbar.asp
+    Aligning Items in a Flex Container. (n.d.). Retrieved July 06, 2020, from https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container
+
+    Feedback form:
+    HTML method Attribute. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/tags/att_form_method.asp
+    HTTP Request Methods. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/tags/ref_httpmethods.asp
+
+    Social Media Icons:
+    How TO - Social Media Buttons. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+    Icons Reference. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/icons/icons_reference.asp
+
+    Text Spacing:
+    Boylls, T., &amp; WikiHow. (2020, June 01). How to Insert Spaces in HTML. Retrieved July 06, 2020, from https://www.wikihow.com/Insert-Spaces-in-HTML
+
+-->
