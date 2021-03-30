@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.darkMode {
+    background: rgb(44, 44, 44);
+    color: white;
+}
+
+.darkElement {
+    background: black;
+    color: white;
+}
+
+.lightMode {
+    background: rgb(204, 204, 204);
+    color: black;
+}
+
+.lightElement {
+    background: white;
+    color: black;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+
+.navBar {
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.gameLogo {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gameLogo.lightElement {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: black;
+}
+
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navBar li a.darkElement {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBar li a.lightElement {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navBar a:hover {
+    background: linear-gradient(to bottom right, red, rgb(255, 153, 0));
+}
+
+.active {
+    background: linear-gradient(to bottom right, red, rgb(255, 153, 0));
+}
+
+.toggle {
+    background: linear-gradient(to bottom right, red, rgb(255, 153, 0));
+    border-radius: 10px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+
+.footer {
+    margin: 10px;
+    padding: 1px 20px;
+    border-radius: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer li {
+    display: inline-block;
+    margin: 1px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer img {
+    border-radius: 50%;
+    padding: 10px;
+    background: #333;
+    text-align: center;
+    filter: brightness(50%);
+    max-width: 100px;
+    height: auto;
+}
+
+.footer img:hover {
+    filter: brightness(100%);
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    filter: brightness(50%);
+}
+
+.fa:hover {
+    filter: brightness(100%);
+}
+
+.fa-twitch {
+    background: #4f0074;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.author {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+/* Mobile UI */
+
+@media only screen and (max-width: 800px) {
+    .navBar li {
+        float: none;
+    }
+    .author {
+        font-size: 2vw;
+    }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+/* 
+REFERENCES:
+
+Hyperlinks:
+CSS Links. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/css/css_link.asp
+
+Tables:
+CSS Tables. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/css/css_table.asp
+
+Go to top button:
+How to create a link that goes to the top of a web page. (2019, December 30). Retrieved July 06, 2020, from https://www.computerhope.com/issues/ch001475.htm
+DarkCode.(2018, October 27). Scroll top button back to top Using Only HTML & CSS [Video File]. Retrieved July 06, 2020 from https://www.youtube.com/watch?v=Vef9bxTilCU&feature=youtu.be
+Smooth scrolling:
+How TO - Smooth Scroll. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+
+Gradients:
+Generator, Maker, and Background. (n.d.). Retrieved July 06, 2020, from https://cssgradient.io/
+
+Gallery images:
+CSS z-index Property. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/cssref/pr_pos_z-index.asp
+How TO - Zoom on Hover. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/howto/howto_css_zoom_hover.asp
+
+Navigation bar:
+CSS Horizontal Navigation Bar. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/css/css_navbar_horizontal.asp
+
+Aligning Items:
+Centering Things in CSS Using Flexbox. (n.d.). Retrieved July 06, 2020, from https://alligator.io/css/centering-using-flexbox/
+
+Nested div backgrounds: 
+Grobmeier, C. (2011, January 28). Nested divs with 100% height. Retrieved July 06, 2020, from https://grobmeier.solutions/neseteddivs-with-100-height-28012011.html
+
+Flexbox bug in safari:
+BrianBrian, &amp; Michael Benjamin. (1969, March 01). Image stretching in flexbox in Safari. Retrieved July 06, 2020, from https://stackoverflow.com/questions/57516373/image-stretching-in-flexbox-in-safari
+
+Display Properties:
+CSS display Property. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/cssref/pr_class_display.asp
+
+Social Media Icons:
+How TO - Social Media Buttons. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/howto/howto_css_social_media_buttons.asp
+Icons Reference. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/icons/icons_reference.asp
+
+Mobile UI Styling:
+Responsive Web Design - Media Queries. (n.d.). Retrieved July 06, 2020, from https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+*/
